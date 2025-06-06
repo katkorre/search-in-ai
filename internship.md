@@ -17,6 +17,12 @@ Assist in selecting an optimal support set $S$ for a given query $x_q$, to maxim
 - **Edge cases** – include ambiguous or challenging samples
 - **Query similarity** – prefer samples semantically close to the query
 
+The steps are:
+1. Build a prompt that uses $n$ shots.
+2. Select randomly shots, fill in the prompt, and feed the LLM to respond to the question.
+3. Store the prompt and the response.
+4. Repeat for an appropriate number of times.
+
 ## Sample Task: Sentiment Classification
 Classify a movie review as positive (1) or negative (0). For each query review:
 1. Select $k^+$ positive and $k^-$ negative examples from a pool
