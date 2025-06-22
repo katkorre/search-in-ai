@@ -5,5 +5,5 @@ We apply **TF-IDF with cosine similarity** to select the most semantically simil
 In the next steps , we are going to filter the prompts so as to not lose any important information because of truncation issues
 The following figure shows the classification accuracy across different numbers of shots:
 
-![Accuracy vs Number of Shots](narrative_classification/accuracy_vs_shots.png)
+![Accuracy vs Number of Shots](accuracy_vs_shots.png)
 
