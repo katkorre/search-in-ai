@@ -10,4 +10,5 @@ The following figure shows the classification accuracy across different numbers 
 ## Randomness in samples
 
 After dealing with random shots , we observe a slight drop in  accuracy , as in the similar examples the peak was at 0.27 while in random the peak is at 0.24.
+This can be shown in the upcoming figure:
 ![Accuracy vs Number of Shots](random_mode_results.png)
